@@ -15,7 +15,7 @@ public class PropertyDTO {
     private String ownerEmail;
     private Double price;
     private String address;
-/* public String getTitle() {
+ public String getTitle() {
         return title;
     }
 
@@ -61,5 +61,5 @@ public class PropertyDTO {
 
     public void setAddress(String address) {
         this.address = address;
-    }*/
+    }
 }
