@@ -16,7 +16,7 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String ownerName;
-    @Column(name = "PROPERTY_OWNER_EMAIL", nullable = false)
+    @Column(name = "EMAIL", nullable = false)
     private String ownerEmail;
     private String phone;
     private String password;
